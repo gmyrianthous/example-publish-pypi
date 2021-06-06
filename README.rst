@@ -5,10 +5,15 @@ Python packages on PyPI.
 
 Installing
 ============
+
+.. code-block:: bash
+
     pip install example-publish-pypi
 
 Usage
 =====
+
+.. code-block:: bash
 
     >>> from example_publish_pypi.example import custom_sklearn
     >>> custom_sklearn.get_sklearn_version()
