@@ -1,5 +1,5 @@
 import sklearn
 
 
-def get_version():
+def get_sklearn_version():
     return sklearn.__version__
