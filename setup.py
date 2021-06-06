@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 
 setup(
@@ -7,7 +7,7 @@ setup(
     license='MIT',
     author="Giorgos Myrianthous",
     author_email='email@example.com',
-    packages=['example_publish_pypi'],
+    packages=find_packages('example_publish_pypi'),
     url='https://github.com/gmyrianthous/example-publish-pypi',
     keywords='example project',
     install_requires=[
